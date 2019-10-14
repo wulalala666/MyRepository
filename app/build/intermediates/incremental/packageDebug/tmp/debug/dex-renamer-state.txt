@@ -1,0 +1,4 @@
+#Sat Oct 12 16:49:58 CST 2019
+base.0=D\:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

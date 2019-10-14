@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bg_2"
+	android:gravity="center"
+	>
+	<!--android:background="@drawable/login"-->
+
+	
+	<TableLayout 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:stretchColumns="1"
+		>
+	
+			<!--<TableRow>-->
+					<!--<TextView android:text="" />-->
+					<!--<TextView android:text="" />-->
+			<!--</TableRow>-->
+			<!--<TableRow>-->
+					<!--<TextView android:text="" />-->
+					<!--<TextView android:text="" />-->
+			<!--</TableRow>-->
+			<!--<TableRow>-->
+					<!--<TextView android:text="" />-->
+					<!--<TextView android:text="" />-->
+			<!--</TableRow>-->
+			<!--<TableRow>-->
+					<!--<TextView android:text="" />-->
+					<!--<TextView android:text="" />-->
+			<!--</TableRow>-->
+			<!--<TableRow>-->
+					<!--<TextView android:text="" />-->
+					<!--<TextView android:text="" />-->
+			<!--</TableRow>-->
+			<!---->
+			<!--<TableRow>-->
+					<!--<TextView android:text="" />-->
+					<!--<TextView android:text="" />-->
+			<!--</TableRow>-->
+			<!---->
+			<!--<TableRow>-->
+					<!--<TextView android:text="" />-->
+					<!--<TextView android:text="" />-->
+			<!--</TableRow>-->
+			
+	
+		<TableRow
+			>
+			<TextView 
+			android:text="用户名称：" 
+			android:id="@+id/NameTextView"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="#ffffff"
+				android:textSize="20sp"
+			/>
+			
+			<EditText 
+			android:text="" 
+			android:id="@+id/userEditText"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+				android:hint="输入用户名"
+				/>
+		</TableRow>
+
+
+		<TableRow>
+			<TextView 
+			android:text="用户密码：" 
+			android:id="@+id/PwdTextView"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+				android:textColor="#ffffff"
+				android:textSize="20sp"
+			/>
+			
+			<EditText 
+			android:text="" 
+			android:id="@+id/pwdEditText"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+				android:hint="输入密码"
+				/>
+			
+		</TableRow>
+		
+		<TableRow 
+			android:gravity="right">
+			
+			<Button 
+				android:text="退出"
+				android:id="@+id/cancelButton"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"/>
+			<Button 
+				android:text="登录"
+				android:id="@+id/loginButton"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"/>
+	
+		</TableRow>
+<TableRow>
+	<Button
+		android:id="@+id/ip_button"
+		android:text="写入ip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		/>
+	<EditText
+		android:id="@+id/ip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="输入ip"
+		/>
+</TableRow>
+	</TableLayout>
+</LinearLayout>

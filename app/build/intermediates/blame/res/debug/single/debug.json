@@ -1,0 +1,214 @@
+[
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_chatai.png.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\chatai.png"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bg_1.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\bg_1.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_diancai.png.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\diancai.png"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\layout_check_table_view.xml.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\layout\\check_table_view.xml"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_diancai.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-ldpi\\diancai.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_zhuantai.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-ldpi\\zhuantai.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_lo.xml.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\layout\\spinner_lo.xml"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_jietai.png.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\jietai.png"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_menu.xml.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\layout\\main_menu.xml"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon.png.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview.xml.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\layout\\listview.xml"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_kongwei.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-ldpi\\kongwei.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_shezhi.png.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\shezhi.png"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.png.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\layout_union_table.xml.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\layout\\union_table.xml"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_jietai.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-mdpi\\jietai.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_youren.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-mdpi\\youren.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_diancan.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-mdpi\\diancan.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bg_2.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\bg_2.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_menu_bg.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\menu_bg.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_shezhi.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-mdpi\\shezhi.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\layout_order.xml.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\layout\\order.xml"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\layout_check_table.xml.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\layout\\check_table.xml"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_chatai.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-mdpi\\chatai.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\layout_pay.xml.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\layout\\pay.xml"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_zhuxiao.png.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\zhuxiao.png"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_login.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\login.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_login.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-ldpi\\login.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_login.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-mdpi\\login.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_gengxin.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-ldpi\\gengxin.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_youren.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-ldpi\\youren.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon.png.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_menu_bg.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-ldpi\\menu_bg.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_gengxin.png.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\gengxin.png"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_zhuxiao.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-ldpi\\zhuxiao.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_diancan.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-ldpi\\diancan.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_jietai.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-ldpi\\jietai.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_chatai.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-ldpi\\chatai.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_gengxin.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-mdpi\\gengxin.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\layout_login_system.xml.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\layout\\login_system.xml"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\layout_order_detail.xml.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\layout\\order_detail.xml"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_zhuantai.png.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\zhuantai.png"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_menu_bg.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-mdpi\\menu_bg.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_zhuxiao.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-mdpi\\zhuxiao.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_shezhi.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-ldpi\\shezhi.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_kongwei.png.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\kongwei.png"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\layout_table_item.xml.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\layout\\table_item.xml"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bingtai.png.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\bingtai.png"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_diancai.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-mdpi\\diancai.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\layout_change_table.xml.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\layout\\change_table.xml"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_kongwei.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-mdpi\\kongwei.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_youren.png.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\youren.png"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_zhuantai.jpg.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-mdpi\\zhuantai.jpg"
+    }
+]
