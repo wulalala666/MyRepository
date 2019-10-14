@@ -4,16 +4,20 @@
         "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\chatai.png"
     },
     {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_button.png.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\button.png"
+    },
+    {
         "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bg_1.jpg.flat",
         "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\bg_1.jpg"
     },
     {
-        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_diancai.png.flat",
-        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\diancai.png"
-    },
-    {
         "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\layout_check_table_view.xml.flat",
         "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\layout\\check_table_view.xml"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_diancai.png.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-hdpi\\diancai.png"
     },
     {
         "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_diancai.jpg.flat",
@@ -22,6 +26,10 @@
     {
         "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_zhuantai.jpg.flat",
         "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-ldpi\\zhuantai.jpg"
+    },
+    {
+        "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_button.png.flat",
+        "source": "D:\\androidcode\\WirelessOrder_Client\\app\\src\\main\\res\\drawable-mdpi\\button.png"
     },
     {
         "merged": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_lo.xml.flat",

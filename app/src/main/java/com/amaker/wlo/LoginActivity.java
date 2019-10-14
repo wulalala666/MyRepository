@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.amaker.util.HttpUtil;
@@ -33,7 +34,7 @@ public class LoginActivity extends Activity {
 		// 通过findViewById方法实例化组件
 		cancelBtn = (Button)findViewById(R.id.cancelButton);
 		// 通过findViewById方法实例化组件
-		loginBtn = (Button)findViewById(R.id.loginButton);
+		loginBtn = (Button) findViewById(R.id.loginButton);
 		// 通过findViewById方法实例化组件
 		userEditText = (EditText)findViewById(R.id.userEditText);
 		// 通过findViewById方法实例化组件

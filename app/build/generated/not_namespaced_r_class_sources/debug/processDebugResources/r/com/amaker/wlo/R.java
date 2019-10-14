@@ -12,19 +12,20 @@ public final class R {
     public static final int bg_1=0x7f010000;
     public static final int bg_2=0x7f010001;
     public static final int bingtai=0x7f010002;
-    public static final int chatai=0x7f010003;
-    public static final int diancai=0x7f010004;
-    public static final int diancan=0x7f010005;
-    public static final int gengxin=0x7f010006;
-    public static final int icon=0x7f010007;
-    public static final int jietai=0x7f010008;
-    public static final int kongwei=0x7f010009;
-    public static final int login=0x7f01000a;
-    public static final int menu_bg=0x7f01000b;
-    public static final int shezhi=0x7f01000c;
-    public static final int youren=0x7f01000d;
-    public static final int zhuantai=0x7f01000e;
-    public static final int zhuxiao=0x7f01000f;
+    public static final int button=0x7f010003;
+    public static final int chatai=0x7f010004;
+    public static final int diancai=0x7f010005;
+    public static final int diancan=0x7f010006;
+    public static final int gengxin=0x7f010007;
+    public static final int icon=0x7f010008;
+    public static final int jietai=0x7f010009;
+    public static final int kongwei=0x7f01000a;
+    public static final int login=0x7f01000b;
+    public static final int menu_bg=0x7f01000c;
+    public static final int shezhi=0x7f01000d;
+    public static final int youren=0x7f01000e;
+    public static final int zhuantai=0x7f01000f;
+    public static final int zhuxiao=0x7f010010;
   }
   public static final class id {
     public static final int DingdanTextView=0x7f020000;
