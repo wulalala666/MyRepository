@@ -46,7 +46,7 @@ public class PayActivity extends Activity{
 			// 获得订单编号
 			String orderId = orderIdEt.getText().toString();
 			// 请求服务器url
-			String url =LoginActivity.BASE_URL+"servlet/PayServlet?id="+orderId;
+			String url =HttpUtil.BASE_URL+"servlet/PayServlet?id="+orderId;
 			//有发送请求吗？？？
 			// 将返回信息在WebView中显示
 			wv.loadUrl(url);
@@ -60,7 +60,7 @@ public class PayActivity extends Activity{
 			// 获得订单编号
 			String orderId = orderIdEt.getText().toString();
 			// 请求服务器url
-			String url =LoginActivity.BASE_URL+"servlet/PayMoneyServlet?id="+orderId;
+			String url =HttpUtil.BASE_URL+"servlet/PayMoneyServlet?id="+orderId;
 			// 获得查询结果 订单号
 			String result = HttpUtil.queryStringForPost(url);
 			// 显示结算结果

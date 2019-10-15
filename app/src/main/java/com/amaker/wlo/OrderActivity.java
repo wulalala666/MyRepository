@@ -159,7 +159,7 @@ public class OrderActivity extends Activity {
 				e.printStackTrace();
 			}
 			// 请求服务器url
-			String url =LoginActivity.BASE_URL+"servlet/StartTableServlet";
+			String url =HttpUtil.BASE_URL+"servlet/StartTableServlet";
 			// 获得请求对象HttpPost
 			HttpPost request = HttpUtil.getHttpPost(url);
 			// 设置查询参数
@@ -316,7 +316,7 @@ public class OrderActivity extends Activity {
 				}
 				
 				// 请求服务器Servlet的url
-				String url =LoginActivity.BASE_URL+"servlet/OrderDetailServlet";
+				String url =HttpUtil.BASE_URL+"servlet/OrderDetailServlet";
 				// 获得HttpPost对象
 				HttpPost request = HttpUtil.getHttpPost(url);
 				// 为请求设置参数

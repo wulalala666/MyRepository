@@ -97,16 +97,22 @@
                 android:id="@+id/cancelButton"
                 android:layout_width="100dp"
                 android:layout_height="50dp"
+				android:background="#96ffffff"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
                 />
 			<Button
 				android:text="登录"
 				android:id="@+id/loginButton"
-				android:layout_width="wrap_content" 
-				android:layout_height="wrap_content"
+				android:layout_width="100dp"
+				android:layout_height="50dp"
+				android:background="#96ffffff"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
 				/>
 	
 		</TableRow>
-<TableRow>
+<!--<TableRow>
 	<Button
 		android:id="@+id/ip_button"
 		android:text="写入ip"
@@ -119,6 +125,6 @@
 		android:layout_height="wrap_content"
 		android:text="192.168.43.206"
 		/>
-</TableRow>
+</TableRow>-->
 	</TableLayout>
 </LinearLayout>

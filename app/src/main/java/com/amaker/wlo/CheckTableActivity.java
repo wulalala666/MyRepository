@@ -46,8 +46,8 @@ public class CheckTableActivity extends Activity{
 	// 获得餐桌信息列表，信息包括桌号和状态
 	private void getTableList(){
 		// 访问服务器url
-        EditText ipEditText=(EditText)findViewById(R.id.ip);
-		String url =LoginActivity.BASE_URL+"/servlet/CheckTableServlet";
+        //EditText ipEditText=(EditText)findViewById(R.id.ip);
+		String url =HttpUtil.BASE_URL+"/servlet/CheckTableServlet";
 		// 查询返回结果
 		String result = HttpUtil.queryStringForPost(url);
 		// 拆分字符串，转换成对象，添加到列表

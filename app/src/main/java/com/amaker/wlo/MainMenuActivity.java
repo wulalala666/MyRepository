@@ -221,7 +221,7 @@ public class MainMenuActivity extends Activity {
 		       		// 查询参数
 		       		String queryString = "orderId="+orderId+"&tableId="+tableId;
 		       		// url
-		       		String url = LoginActivity.BASE_URL+"servlet/ChangeTableServlet?"+queryString;
+		       		String url = HttpUtil.BASE_URL+"servlet/ChangeTableServlet?"+queryString;
 		       		// 查询返回结果
 		       		String result = HttpUtil.queryStringForPost(url);
 		       		// 显示结果
@@ -248,7 +248,7 @@ public class MainMenuActivity extends Activity {
 		final Spinner spinner1 = (Spinner) v.findViewById(R.id.union_table_Spinner1);
 		final Spinner spinner2 = (Spinner) v.findViewById(R.id.union_table_Spinner2);
 		// 访问服务器的URL
-		String urlStr = LoginActivity.BASE_URL + "servlet/UnionTableServlet";
+		String urlStr =HttpUtil.BASE_URL + "servlet/UnionTableServlet";
 		try {
 			// 实例化URL
 			URL url = new URL(urlStr);
@@ -307,7 +307,7 @@ public class MainMenuActivity extends Activity {
 		        		// 查询参数
 		       			String queryString = "tableId1="+tableId1+"&tableId2="+tableId2;
 		       			// url
-		       			String url =LoginActivity.BASE_URL+"servlet/UnionTableServlet2?"+queryString;
+		       			String url =HttpUtil.BASE_URL+"servlet/UnionTableServlet2?"+queryString;
 		       			// 查询返回结果
 		       			String result =  HttpUtil.queryStringForPost(url);
 					   Toast.makeText(MainMenuActivity.this,"并桌成功",Toast.LENGTH_SHORT).show();

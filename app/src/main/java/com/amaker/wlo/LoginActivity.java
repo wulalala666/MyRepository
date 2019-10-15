@@ -20,9 +20,9 @@ public class LoginActivity extends Activity {
 	private Button cancelBtn,loginBtn;
 	// 声明用户名、密码输入框
 	private EditText userEditText,pwdEditText;
-	EditText ipEditText;
-	Button ipButton;
-	public static String   BASE_URL=null;
+//	EditText ipEditText;
+//	Button ipButton;
+	//public static String   BASE_URL=null;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -40,14 +40,14 @@ public class LoginActivity extends Activity {
 		// 通过findViewById方法实例化组件
 		pwdEditText = (EditText)findViewById(R.id.pwdEditText);
 		//手动赋值ip
-		ipEditText=(EditText)findViewById(R.id.ip);
-		ipButton=(Button)findViewById(R.id.ip_button);
-		ipButton.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				BASE_URL="http://"+ipEditText.getText().toString()+":8080/WirelessOrder_Server/";
-			}
-		});
+//		ipEditText=(EditText)findViewById(R.id.ip);
+//		ipButton=(Button)findViewById(R.id.ip_button);
+//		ipButton.setOnClickListener(new OnClickListener() {
+//			@Override
+//			public void onClick(View view) {
+//				BASE_URL="http://"+ipEditText.getText().toString()+":8080/WirelessOrder_Server/";
+//			}
+//		});
 		cancelBtn.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -134,7 +134,7 @@ public class LoginActivity extends Activity {
 		// 查询参数
 		String queryString = "account="+account+"&password="+password;
 		// url
-		String url =BASE_URL+"/servlet/LoginServlet?"+queryString;
+		String url =HttpUtil.BASE_URL+"/servlet/LoginServlet?"+queryString;
 		// 查询返回结果
 		return HttpUtil.queryStringForPost(url);
     }

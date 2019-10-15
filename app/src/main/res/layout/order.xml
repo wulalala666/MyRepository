@@ -47,20 +47,30 @@ android:stretchColumns="1">
 			<Button 
 			android:text="开桌" 
 			android:id="@+id/startButton02" 
-			android:layout_width="wrap_content" 
-			android:layout_height="wrap_content"/>
+			android:layout_width="60dp"
+			android:layout_height="50dp"
+				android:background="#96ffffff"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				/>
 			
 			<Button 
 			android:text="添菜" 
 			android:id="@+id/addMealButton01" 
 			android:layout_width="wrap_content" 
-			android:layout_height="wrap_content"/>
+			android:layout_height="50dp"
+				android:background="#96ffffff"
+				/>
 			
 			<Button 
 			android:text="下单" 
 			android:id="@+id/orderButton02" 
-			android:layout_width="wrap_content" 
-			android:layout_height="wrap_content" />
+			android:layout_width="60dp"
+			android:layout_height="50dp"
+				android:background="#96ffffff"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				/>
 	
 		</TableRow>
 

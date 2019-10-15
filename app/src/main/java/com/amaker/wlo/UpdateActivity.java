@@ -93,7 +93,7 @@ public class UpdateActivity extends ListActivity {
 	// 更新菜谱表
 	private void updateMenu() {
 		// 访问服务器url
-		String urlStr =LoginActivity.BASE_URL + "servlet/UpdateServlet";
+		String urlStr =HttpUtil.BASE_URL + "servlet/UpdateServlet";
 		try {
 			// 实例化URL对象
 			URL url = new URL(urlStr);
@@ -160,7 +160,7 @@ public class UpdateActivity extends ListActivity {
 	private void updateTable() {
 		//都没写
 		// 访问服务器url
-		String urlStr =LoginActivity.BASE_URL + "servlet/UpdateTableServlet";
+		String urlStr =HttpUtil.BASE_URL + "servlet/UpdateTableServlet";
 		try {
 			// 实例化URL对象
 			URL url = new URL(urlStr);
