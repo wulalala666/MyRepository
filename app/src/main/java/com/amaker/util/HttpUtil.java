@@ -12,6 +12,7 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 
 public class HttpUtil {
+
 	// 基础URL
 	public static final String BASE_URL="http://192.168.43.206:8080/WirelessOrder_Server/";
 	// 获得Get请求对象request

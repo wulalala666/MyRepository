@@ -5,7 +5,11 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.StrictMode;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -15,7 +19,7 @@ import android.widget.Toast;
 
 import com.amaker.util.HttpUtil;
 
-public class LoginActivity extends Activity {
+public class LoginActivity extends AppCompatActivity {
 	// 声明登录、取消按钮
 	private Button cancelBtn,loginBtn;
 	// 声明用户名、密码输入框
@@ -27,10 +31,17 @@ public class LoginActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		//网络请求不应该放在UI线程里 会阻塞UI 甚至假死 但没办法 honeycomb SDK 3.0后禁止 手动允许
+		if(Build.VERSION.SDK_INT > 9){
+			StrictMode.ThreadPolicy policy=new StrictMode.ThreadPolicy.Builder().permitAll().build();
+			StrictMode.setThreadPolicy(policy);
+		}
 		// 设置标题
 		setTitle("用户登录");
 		// 设置当前Activity界面布局
 		setContentView(R.layout.login_system);
+		Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar_login);
+		setSupportActionBar(toolbar);
 		// 通过findViewById方法实例化组件
 		cancelBtn = (Button)findViewById(R.id.cancelButton);
 		// 通过findViewById方法实例化组件

@@ -8,8 +8,8 @@ android {
     }
     defaultConfig {
         applicationId "com.amaker.wlo"
-        minSdkVersion 6
-        targetSdkVersion 6
+        minSdkVersion 14
+        targetSdkVersion 14
     }
 
     buildTypes {
@@ -21,5 +21,5 @@ android {
 }
 
 dependencies {
-    //implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
 }

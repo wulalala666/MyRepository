@@ -2,6 +2,8 @@ package com.amaker.wlo;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.webkit.WebView;
@@ -11,7 +13,7 @@ import android.widget.Toast;
 
 import com.amaker.util.HttpUtil;
 
-public class PayActivity extends Activity{
+public class PayActivity extends AppCompatActivity {
 	// 显示点餐信息WebView
 	private WebView wv;
 	// 查询点餐信息按钮和结算按钮
@@ -24,6 +26,9 @@ public class PayActivity extends Activity{
 		setTitle("付款		最新的订单号为："+OrderActivity.orderId);
 		// 设置当前Activity的界面布局
 		setContentView(R.layout.pay);
+		//实例化toolbar
+		Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar_pay);
+		setSupportActionBar(toolbar);
 		// 获得WebView实例
 		wv = (WebView)findViewById(R.id.pay_webview);
 		// 实例化查询按钮

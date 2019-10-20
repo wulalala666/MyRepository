@@ -22,6 +22,8 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -38,7 +40,7 @@ import android.widget.Toast;
 
 import com.amaker.util.HttpUtil;
 
-public class OrderActivity extends Activity {
+public class OrderActivity extends AppCompatActivity {
 	// 桌号下拉列表
 	private Spinner tableNoSpinner;
 	// 开桌、点菜和下单按钮
@@ -65,7 +67,10 @@ public class OrderActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		// 为Activity设置界面布局
 		setContentView(R.layout.order);
-		
+		//实例化toolbar
+		Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar_order);
+		setSupportActionBar(toolbar);
+		setTitle("点菜");
 		// 实例化Spinner
 		tableNoSpinner = (Spinner) findViewById(R.id.tableNoSpinner);
 		// 为桌号下拉列表Spinner绑定数据

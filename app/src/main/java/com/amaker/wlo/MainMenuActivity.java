@@ -21,6 +21,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -38,12 +40,14 @@ import android.widget.Toast;
 
 import com.amaker.util.HttpUtil;
 
-public class MainMenuActivity extends Activity {
+public class MainMenuActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle("Ö÷²Ëµ¥");
         setContentView(R.layout.main_menu);
+		Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar_main);
+		setSupportActionBar(toolbar);
         GridView gridview = (GridView) findViewById(R.id.gridview);
         gridview.setAdapter(new ImageAdapter(this));
     }

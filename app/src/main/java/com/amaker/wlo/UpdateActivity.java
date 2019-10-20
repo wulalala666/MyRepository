@@ -40,7 +40,6 @@ public class UpdateActivity extends ListActivity {
 		setTitle("数据同步");
 		// 获得ListView实例
 		ListView listView = getListView();
-		listView.setBackgroundResource(R.drawable.bg_1);
 		//listView.setBackgroundColor(Color.RED);
 		// 声明ListView要绑定的数据
 		String[] items = {"更新菜谱表数据[MenuTbl]", "更新餐桌表数据[TableTbl]" };

@@ -6,6 +6,8 @@ import java.util.List;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,7 +23,7 @@ import com.amaker.util.HttpUtil;
  * 查台
  * @author 郭宏志
  */
-public class CheckTableActivity extends Activity{
+public class CheckTableActivity extends AppCompatActivity {
 	// 显示餐桌状态的GridView
 	private GridView gv;
 	// 餐桌数量
@@ -35,6 +37,8 @@ public class CheckTableActivity extends Activity{
 		setTitle("查台");
 		// 设置当前Activity的界面布局
 		setContentView(R.layout.check_table);
+		Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar_check);
+		setSupportActionBar(toolbar);
 		// 实例化
         gv = (GridView) findViewById(R.id.check_table_gridview);
         //获得餐桌列表
