@@ -4,7 +4,7 @@
             "outputFile": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\john\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\17e99c47a920d3c36da4506a43506959\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\john\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\820aad56cfbf6a48d6f0e9107c410ea5\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

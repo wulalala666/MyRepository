@@ -22,9 +22,11 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -62,7 +64,18 @@ public class OrderActivity extends AppCompatActivity {
 	// 引用的TextView Drawable ID
 	private int[] to = new int[5];
 
-	@Override
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                finish();
+                break;
+                default:
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		// 为Activity设置界面布局
@@ -70,6 +83,10 @@ public class OrderActivity extends AppCompatActivity {
 		//实例化toolbar
 		Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar_order);
 		setSupportActionBar(toolbar);
+		ActionBar actionBar=getSupportActionBar();
+		if (actionBar!=null){
+			actionBar.setDisplayHomeAsUpEnabled(true);
+		}
 		setTitle("点菜");
 		// 实例化Spinner
 		tableNoSpinner = (Spinner) findViewById(R.id.tableNoSpinner);
@@ -138,12 +155,11 @@ public class OrderActivity extends AppCompatActivity {
 		@Override
 		public void onClick(View v) {
 			Date date = new Date();
-			SimpleDateFormat sdf = new SimpleDateFormat("yy:mm:dd hh:MM");
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 			// 开桌时间
 			String orderTime = sdf.format(date);
 			// 开桌用户，从登陆配置文件中获得
-			SharedPreferences pres = getSharedPreferences("user_msg",
-					MODE_WORLD_READABLE);
+			SharedPreferences pres = getSharedPreferences("user_msg", MODE_PRIVATE);
 			String userId = pres.getString("id", "");
 			// 桌号
 			TextView tv = (TextView) tableNoSpinner.getSelectedView();

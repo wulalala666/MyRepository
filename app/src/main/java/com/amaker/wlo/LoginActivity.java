@@ -8,8 +8,10 @@ import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.StrictMode;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -29,6 +31,17 @@ public class LoginActivity extends AppCompatActivity {
 	//public static String   BASE_URL=null;
 
 	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()){
+			case android.R.id.home:
+				finish();
+				break;
+				default:
+		}
+		return true;
+	}
+
+	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		//网络请求不应该放在UI线程里 会阻塞UI 甚至假死 但没办法 honeycomb SDK 3.0后禁止 手动允许
@@ -40,10 +53,18 @@ public class LoginActivity extends AppCompatActivity {
 		setTitle("用户登录");
 		// 设置当前Activity界面布局
 		setContentView(R.layout.login_system);
+		//实例化toolbar
 		Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar_login);
 		setSupportActionBar(toolbar);
+		//显示导航键
+		ActionBar actionBar=getSupportActionBar();
+		if (actionBar!=null){
+			actionBar.setDisplayHomeAsUpEnabled(true);
+		}
+		//第一个活动的导航键重写为退出finish
+
 		// 通过findViewById方法实例化组件
-		cancelBtn = (Button)findViewById(R.id.cancelButton);
+		//cancelBtn = (Button)findViewById(R.id.cancelButton);
 		// 通过findViewById方法实例化组件
 		loginBtn = (Button) findViewById(R.id.loginButton);
 		// 通过findViewById方法实例化组件
@@ -59,12 +80,12 @@ public class LoginActivity extends AppCompatActivity {
 //				BASE_URL="http://"+ipEditText.getText().toString()+":8080/WirelessOrder_Server/";
 //			}
 //		});
-		cancelBtn.setOnClickListener(new OnClickListener() {
+		/*cancelBtn.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				finish();
 			}
-		});
+		});*/
 		loginBtn.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -108,7 +129,7 @@ public class LoginActivity extends AppCompatActivity {
 		idx = msgs[1].indexOf("=");
 		name = msgs[1].substring(idx+1);
 		// 共享信息
-		SharedPreferences pre = getSharedPreferences("user_msg", MODE_WORLD_WRITEABLE);
+		SharedPreferences pre = getSharedPreferences("user_msg",MODE_PRIVATE);
 		SharedPreferences.Editor editor = pre.edit();
 		editor.putString("id", id);
 		editor.putString("name", name);

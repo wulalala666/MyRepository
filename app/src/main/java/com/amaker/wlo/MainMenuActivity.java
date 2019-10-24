@@ -21,10 +21,15 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.View.OnClickListener;
@@ -41,15 +46,46 @@ import android.widget.Toast;
 import com.amaker.util.HttpUtil;
 
 public class MainMenuActivity extends AppCompatActivity {
-    @Override
+	private DrawerLayout mdrawerLayout;
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()){
+			case android.R.id.home:
+				finish();
+				break;
+			case R.id.show_drawer:
+				mdrawerLayout.openDrawer(GravityCompat.START);
+				break;
+				default:
+		}
+		return super.onOptionsItemSelected(item);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.toolbar,menu);
+		return super.onCreateOptionsMenu(menu);
+	}
+
+	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle("主菜单");
         setContentView(R.layout.main_menu);
 		Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar_main);
 		setSupportActionBar(toolbar);
+		ActionBar actionBar=getSupportActionBar();
+		if (actionBar!=null){
+			actionBar.setDisplayHomeAsUpEnabled(true);
+		}
         GridView gridview = (GridView) findViewById(R.id.gridview);
         gridview.setAdapter(new ImageAdapter(this));
+        TextView username=(TextView)findViewById(R.id.username);
+        //以sharedpreferences获取name
+        SharedPreferences sp=getSharedPreferences("user_msg",MODE_PRIVATE);
+        String name=sp.getString("name","找不到当前用户");
+        username.setText("当前服务员为："+name);
+        mdrawerLayout=(DrawerLayout)findViewById(R.id.drawer_main);
     }
     
     // 继承BaseAdapter
@@ -174,7 +210,6 @@ public class MainMenuActivity extends AppCompatActivity {
 			// 启动订餐Activity
 			intent.setClass(MainMenuActivity.this, OrderActivity.class);
 			startActivity(intent);
-			Log.d("test","启动订单活动成功");
 		}
 	};
 	// 注销监听器

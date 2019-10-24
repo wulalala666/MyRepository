@@ -6,9 +6,11 @@ import java.util.List;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -30,6 +32,18 @@ public class CheckTableActivity extends AppCompatActivity {
 	private int count;
 	// 保存餐桌信息的列表
 	private List list = new ArrayList();
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()){
+			case android.R.id.home:
+				finish();
+				break;
+				default:
+		}
+		return super.onOptionsItemSelected(item);
+	}
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -39,6 +53,10 @@ public class CheckTableActivity extends AppCompatActivity {
 		setContentView(R.layout.check_table);
 		Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar_check);
 		setSupportActionBar(toolbar);
+		ActionBar actionBar=getSupportActionBar();
+		if (actionBar!=null){
+			actionBar.setDisplayHomeAsUpEnabled(true);
+		}
 		// 实例化
         gv = (GridView) findViewById(R.id.check_table_gridview);
         //获得餐桌列表

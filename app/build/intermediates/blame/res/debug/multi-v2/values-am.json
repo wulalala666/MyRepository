@@ -4,7 +4,7 @@
             "outputFile": "D:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\john\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\0dfdd6f96fbe7a4d0bd7aeb78d7905fb\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\john\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\e9da681604f86c88fed280dccf1b11e8\\res\\values-am\\values-am.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\john\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\17e99c47a920d3c36da4506a43506959\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\john\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\820aad56cfbf6a48d6f0e9107c410ea5\\res\\values-am\\values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

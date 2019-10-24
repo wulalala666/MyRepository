@@ -1,123 +1,141 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:2:1-32:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\17e99c47a920d3c36da4506a43506959\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\32ed9518b3bd87f0e0e2f4e2926b7cb2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\a9f6b69301b93e444f03c3b696c0bf19\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\243d7fb77edb3da422e09c406a2776a1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7474405b8db12cd781d6aae067aaf827\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\76db28aea70df289837384a5fdff6726\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\0dfdd6f96fbe7a4d0bd7aeb78d7905fb\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\cb9bcc674000c85feed1a41bfe523ced\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\fb03b28dbfd8e75a26ee20a49699833d\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9f9e7d151dd4afc3cb023e6931798f8e\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8dea8d56bf8a7024f0130add092d5088\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:2:1-38:12
+MERGED from [com.github.f0ris.sweetalert:library:1.5.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\library-1.5.1.aar\2d13ae896bfb41c32e09dcac095318f7\AndroidManifest.xml:2:1-13:12
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\materialish-progress-1.0.aar\41af88c35593159f6c67c009f08b3f16\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\820aad56cfbf6a48d6f0e9107c410ea5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\098c86c48fb295ba565954a56c384007\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\5a947f2d5a4d1135bd233b1f6aeba617\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\7f8af3c0e53b40f8d67dd795bfa00f2c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\dbea8791abba02e4faccc5b21ffcd565\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\653bfb1d68fa0abdf79eb8d0877da2d3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e9da681604f86c88fed280dccf1b11e8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\482a4ce0455d0470538248e639fd0a65\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5ce8e1575512423dafef37f6f1907bd8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fc65740122551863d196be0f96a69b05\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\84a45f0279b4ef941f9c2b0f6b89eb23\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:2:1-38:12
 	package
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:3:7-31
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:4:7-31
 		INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml
 		INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:5:7-32
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:6:7-32
 		INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml
 		INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:7:5-51
 	xmlns:android
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:3:5-63
 	android:versionCode
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:4:7-30
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:5:7-30
 		INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml
 		INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml
 application
-ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:6:5-29:19
+ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:9:5-35:19
+MERGED from [com.github.f0ris.sweetalert:library:1.5.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\library-1.5.1.aar\2d13ae896bfb41c32e09dcac095318f7\AndroidManifest.xml:11:5-20
+MERGED from [com.github.f0ris.sweetalert:library:1.5.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\library-1.5.1.aar\2d13ae896bfb41c32e09dcac095318f7\AndroidManifest.xml:11:5-20
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\materialish-progress-1.0.aar\41af88c35593159f6c67c009f08b3f16\AndroidManifest.xml:11:5-15:19
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\materialish-progress-1.0.aar\41af88c35593159f6c67c009f08b3f16\AndroidManifest.xml:11:5-15:19
 	android:label
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:12:9-41
 	android:icon
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:6:18-47
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:10:9-38
+		REJECTED from [com.pnikosis:materialish-progress:1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\materialish-progress-1.0.aar\41af88c35593159f6c67c009f08b3f16\AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:13:9-35
+		REJECTED from [com.pnikosis:materialish-progress:1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\materialish-progress-1.0.aar\41af88c35593159f6c67c009f08b3f16\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:7:9-59
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:11:9-65
+	tools:replace
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:14:9-71
 activity#com.amaker.wlo.LoginActivity
-ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:10:9-17:20
+ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:16:9-23:20
 	android:label
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:11:19-51
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:17:19-51
 	android:name
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:10:19-48
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:16:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:13:13-16:29
+ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
-ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:15:17-77
+ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:15:27-74
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:21:27-74
 activity#com.amaker.wlo.UpdateActivity
-ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:20:9-50
+ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:26:9-50
 	android:name
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:20:19-48
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:26:19-48
 activity#com.amaker.wlo.CheckTableActivity
-ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:21:9-54
+ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:27:9-54
 	android:name
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:21:19-52
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:27:19-52
 activity#com.amaker.wlo.MainMenuActivity
-ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:22:9-52
+ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:28:9-52
 	android:name
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:22:19-50
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:28:19-50
 activity#com.amaker.wlo.OrderActivity
-ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:23:9-49
+ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:29:9-49
 	android:name
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:23:19-47
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:29:19-47
 activity#com.amaker.wlo.PayActivity
-ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:24:9-47
+ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:30:9-47
 	android:name
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:24:19-45
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:30:19-45
 provider#com.amaker.provider.TableProvider
-ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:26:9-118
+ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:32:9-118
 	android:authorities
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:26:68-116
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:32:68-116
 	android:name
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:26:19-67
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:32:19-67
 provider#com.amaker.provider.MenuProvider
-ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:27:3-110
+ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:33:3-110
 	android:authorities
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:27:61-108
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:33:61-108
 	android:name
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:27:13-60
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:33:13-60
 uses-permission#android.permission.INTERNET
-ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:31:5-83
+ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:37:5-83
 	android:name
-		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:31:22-64
+		ADDED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml:37:22-64
 uses-sdk
 INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml
 INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\17e99c47a920d3c36da4506a43506959\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\17e99c47a920d3c36da4506a43506959\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\32ed9518b3bd87f0e0e2f4e2926b7cb2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\32ed9518b3bd87f0e0e2f4e2926b7cb2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\a9f6b69301b93e444f03c3b696c0bf19\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\a9f6b69301b93e444f03c3b696c0bf19\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\243d7fb77edb3da422e09c406a2776a1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\243d7fb77edb3da422e09c406a2776a1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7474405b8db12cd781d6aae067aaf827\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7474405b8db12cd781d6aae067aaf827\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\76db28aea70df289837384a5fdff6726\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\76db28aea70df289837384a5fdff6726\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\0dfdd6f96fbe7a4d0bd7aeb78d7905fb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\0dfdd6f96fbe7a4d0bd7aeb78d7905fb\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\cb9bcc674000c85feed1a41bfe523ced\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\cb9bcc674000c85feed1a41bfe523ced\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\fb03b28dbfd8e75a26ee20a49699833d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\fb03b28dbfd8e75a26ee20a49699833d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9f9e7d151dd4afc3cb023e6931798f8e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9f9e7d151dd4afc3cb023e6931798f8e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8dea8d56bf8a7024f0130add092d5088\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8dea8d56bf8a7024f0130add092d5088\AndroidManifest.xml:20:5-44
+MERGED from [com.github.f0ris.sweetalert:library:1.5.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\library-1.5.1.aar\2d13ae896bfb41c32e09dcac095318f7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.f0ris.sweetalert:library:1.5.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\library-1.5.1.aar\2d13ae896bfb41c32e09dcac095318f7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\materialish-progress-1.0.aar\41af88c35593159f6c67c009f08b3f16\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\materialish-progress-1.0.aar\41af88c35593159f6c67c009f08b3f16\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\820aad56cfbf6a48d6f0e9107c410ea5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\820aad56cfbf6a48d6f0e9107c410ea5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\098c86c48fb295ba565954a56c384007\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\098c86c48fb295ba565954a56c384007\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\5a947f2d5a4d1135bd233b1f6aeba617\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\5a947f2d5a4d1135bd233b1f6aeba617\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\7f8af3c0e53b40f8d67dd795bfa00f2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\7f8af3c0e53b40f8d67dd795bfa00f2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\dbea8791abba02e4faccc5b21ffcd565\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\dbea8791abba02e4faccc5b21ffcd565\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\653bfb1d68fa0abdf79eb8d0877da2d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\653bfb1d68fa0abdf79eb8d0877da2d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e9da681604f86c88fed280dccf1b11e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\john\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e9da681604f86c88fed280dccf1b11e8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\482a4ce0455d0470538248e639fd0a65\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\482a4ce0455d0470538248e639fd0a65\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5ce8e1575512423dafef37f6f1907bd8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5ce8e1575512423dafef37f6f1907bd8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fc65740122551863d196be0f96a69b05\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fc65740122551863d196be0f96a69b05\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\84a45f0279b4ef941f9c2b0f6b89eb23\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\john\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\84a45f0279b4ef941f9c2b0f6b89eb23\AndroidManifest.xml:20:5-44
 INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml
 INJECTED from D:\androidcode\WirelessOrder_Client\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion

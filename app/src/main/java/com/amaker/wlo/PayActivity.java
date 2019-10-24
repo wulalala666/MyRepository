@@ -2,8 +2,10 @@ package com.amaker.wlo;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.webkit.WebView;
@@ -20,6 +22,18 @@ public class PayActivity extends AppCompatActivity {
 	private Button queryBtn,payBtn;
 	// 订单编号
 	private EditText orderIdEt;
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()){
+			case android.R.id.home:
+				finish();
+				break;
+				default:
+		}
+		return super.onOptionsItemSelected(item);
+	}
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -29,6 +43,10 @@ public class PayActivity extends AppCompatActivity {
 		//实例化toolbar
 		Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar_pay);
 		setSupportActionBar(toolbar);
+		ActionBar actionBar=getSupportActionBar();
+		if (actionBar!=null){
+			actionBar.setDisplayHomeAsUpEnabled(true);
+		}
 		// 获得WebView实例
 		wv = (WebView)findViewById(R.id.pay_webview);
 		// 实例化查询按钮
