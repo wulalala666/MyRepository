@@ -45,6 +45,7 @@ public class LoginActivity extends AppCompatActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		//网络请求不应该放在UI线程里 会阻塞UI 甚至假死 但没办法 honeycomb SDK 3.0后禁止 手动允许
+		//测试版本控制
 		if(Build.VERSION.SDK_INT > 9){
 			StrictMode.ThreadPolicy policy=new StrictMode.ThreadPolicy.Builder().permitAll().build();
 			StrictMode.setThreadPolicy(policy);
