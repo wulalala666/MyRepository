@@ -28,6 +28,9 @@ import android.widget.Toast;
 import com.amaker.provider.Menus;
 import com.amaker.provider.Tables;
 import com.amaker.util.HttpUtil;
+
+import cn.pedant.SweetAlert.SweetAlertDialog;
+
 /**
  * 
  * @author 郭宏志
@@ -43,7 +46,7 @@ public class UpdateActivity extends ListActivity {
 		ListView listView = getListView();
 		//listView.setBackgroundColor(Color.RED);
 		// 声明ListView要绑定的数据
-		String[] items = {"更新菜谱表数据[MenuTbl]", "更新餐桌表数据[TableTbl]" };
+		String[] items = {"更新菜谱表数据", "更新餐桌表数据" };
 		// 实例化adapter
 		ListAdapter adapter = new ArrayAdapter<String>(this,
 				R.layout.table_item, items);
@@ -69,7 +72,7 @@ public class UpdateActivity extends ListActivity {
 	}
 	// 确认对话框
 	private void confirm(final int item) {
-		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		/*AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setMessage("你真的要更新吗?").setCancelable(false).setPositiveButton(
 				"确定", new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int id) {
@@ -88,7 +91,30 @@ public class UpdateActivity extends ListActivity {
 					}
 				});
 		AlertDialog alert = builder.create();
-		alert.show();
+		alert.show();*/
+
+		SweetAlertDialog sweetAlertDialog = new SweetAlertDialog(this);
+		sweetAlertDialog.setTitleText("你真的要更新吗?")
+						.setConfirmButton("确定", new SweetAlertDialog.OnSweetClickListener() {
+							@Override
+							public void onClick(SweetAlertDialog sweetAlertDialog) {
+								if (item == 1) {
+									// 更新菜谱表数据
+									updateMenu();
+								} else {
+									// 更新桌位表数据
+									updateTable();
+								}
+								sweetAlertDialog.cancel();
+							}
+						})
+						.setCancelButton("取消", new SweetAlertDialog.OnSweetClickListener() {
+							@Override
+							public void onClick(SweetAlertDialog sweetAlertDialog) {
+								sweetAlertDialog.cancel();
+							}
+						})
+						.show();
 	}
 	// 更新菜谱表
 	private void updateMenu() {
@@ -154,7 +180,7 @@ public class UpdateActivity extends ListActivity {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-        Toast.makeText(UpdateActivity.this,"同步菜谱表成功",Toast.LENGTH_SHORT).show();
+        Toast.makeText(UpdateActivity.this,"同步菜谱表成功",Toast.LENGTH_LONG).show();
 	}
 
 	private void updateTable() {
@@ -207,6 +233,6 @@ public class UpdateActivity extends ListActivity {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-        Toast.makeText(UpdateActivity.this,"同步餐桌表成功",Toast.LENGTH_SHORT).show();
+        Toast.makeText(UpdateActivity.this,"同步餐桌表成功",Toast.LENGTH_LONG).show();
 	}
 }

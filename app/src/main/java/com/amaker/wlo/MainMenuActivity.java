@@ -45,6 +45,8 @@ import android.widget.Toast;
 
 import com.amaker.util.HttpUtil;
 
+import cn.pedant.SweetAlert.SweetAlertDialog;
+
 public class MainMenuActivity extends AppCompatActivity {
 	private DrawerLayout mdrawerLayout;
 	@Override
@@ -247,7 +249,7 @@ public class MainMenuActivity extends AppCompatActivity {
 		final EditText et1 = (EditText) v.findViewById(R.id.change_table_order_number_EditText);
 		final EditText et2 = (EditText) v.findViewById(R.id.change_table_no_EditText);
 		
-		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		/*AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setMessage(" 真的要换桌位吗？")
 		       .setCancelable(false)
 		       .setView(v)
@@ -273,7 +275,35 @@ public class MainMenuActivity extends AppCompatActivity {
 		           }
 		       });
 		AlertDialog alert = builder.create();
-		alert.show();
+		alert.show();*/
+		SweetAlertDialog sweetAlertDialog = new SweetAlertDialog(this);
+		sweetAlertDialog.setTitleText("真的要换桌位吗？")
+						.setCustomView(v)
+						.setConfirmButton("确定", new SweetAlertDialog.OnSweetClickListener() {
+							@Override
+							public void onClick(SweetAlertDialog sweetAlertDialog) {
+								// 获得订单号
+								String orderId = et1.getText().toString();
+								// 获得桌号
+								String tableId = et2.getText().toString();
+								// 查询参数
+								String queryString = "orderId="+orderId+"&tableId="+tableId;
+								// url
+								String url = HttpUtil.BASE_URL+"servlet/ChangeTableServlet?"+queryString;
+								// 查询返回结果
+								String result = HttpUtil.queryStringForPost(url);
+								// 显示结果
+								Toast.makeText(MainMenuActivity.this,result,Toast.LENGTH_LONG).show();
+								sweetAlertDialog.cancel();
+							}
+						})
+						.setCancelButton("取消", new SweetAlertDialog.OnSweetClickListener() {
+							@Override
+							public void onClick(SweetAlertDialog sweetAlertDialog) {
+								sweetAlertDialog.cancel();
+							}
+						})
+						.show();
 	}
 	
 	
@@ -332,7 +362,8 @@ public class MainMenuActivity extends AppCompatActivity {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+		/*AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setMessage(" 真的要并桌吗？")
 		       .setCancelable(false)
 		       .setView(v)
@@ -358,14 +389,43 @@ public class MainMenuActivity extends AppCompatActivity {
 		           }
 		       });
 		AlertDialog alert = builder.create();
-		alert.show();
+		alert.show();*/
+
+		SweetAlertDialog sweetAlertDialog = new SweetAlertDialog(this);
+		sweetAlertDialog.setTitleText(" 真的要并桌吗？")
+						.setCustomView(v)
+						.setConfirmButton("确定", new SweetAlertDialog.OnSweetClickListener() {
+							@Override
+							public void onClick(SweetAlertDialog sweetAlertDialog) {
+								TextView tv1 = (TextView) spinner1.getSelectedView();
+								TextView tv2 = (TextView) spinner2.getSelectedView();
+
+								String tableId1 = tv1.getText().toString();
+								String tableId2 = tv2.getText().toString();
+								// 查询参数
+								String queryString = "tableId1="+tableId1+"&tableId2="+tableId2;
+								// url
+								String url =HttpUtil.BASE_URL+"servlet/UnionTableServlet2?"+queryString;
+								// 查询返回结果
+								String result =  HttpUtil.queryStringForPost(url);
+								Toast.makeText(MainMenuActivity.this,"并桌成功",Toast.LENGTH_LONG).show();
+								sweetAlertDialog.cancel();
+							}
+						})
+						.setCancelButton("取消", new SweetAlertDialog.OnSweetClickListener() {
+							@Override
+							public void onClick(SweetAlertDialog sweetAlertDialog) {
+								sweetAlertDialog.cancel();
+							}
+						})
+						.show();
 
 	}
 	
 	
 	// 退出系统
 	private void logout(){
-		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		/*AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setMessage("真的要退出系统吗？")
 		       .setCancelable(false)
 		       .setPositiveButton("确定", new DialogInterface.OnClickListener() {
@@ -385,6 +445,28 @@ public class MainMenuActivity extends AppCompatActivity {
 		           }
 		       });
 		AlertDialog alert = builder.create();
-		alert.show();
+		alert.show();*/
+		SweetAlertDialog sweetAlertDialog = new SweetAlertDialog(this);
+		sweetAlertDialog.setContentText("真的要退出系统吗？")
+				.setConfirmButton("确定", new SweetAlertDialog.OnSweetClickListener() {
+					@Override
+					public void onClick(SweetAlertDialog sweetAlertDialog) {
+						SharedPreferences pres = getSharedPreferences("user_msg", MODE_WORLD_WRITEABLE);
+						SharedPreferences.Editor editor = pres.edit();
+						editor.putString("id", "");
+						editor.putString("name", "");
+
+						Intent intent = new Intent();
+						intent.setClass(MainMenuActivity.this, LoginActivity.class);
+						startActivity(intent);
+					}
+				})
+				.setCancelButton("取消", new SweetAlertDialog.OnSweetClickListener() {
+					@Override
+					public void onClick(SweetAlertDialog sweetAlertDialog) {
+						sweetAlertDialog.cancel();
+					}
+				})
+				.show();
 	}
 }

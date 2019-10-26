@@ -71,10 +71,7 @@ attr backgroundSplit
 attr backgroundStacked
 attr backgroundTint
 attr backgroundTintMode
-attr barColor
 attr barLength
-attr barSpinCycleTime
-attr barWidth
 attr borderlessButtonStyle
 attr buttonBarButtonStyle
 attr buttonBarNegativeButtonStyle
@@ -90,7 +87,6 @@ attr buttonTint
 attr buttonTintMode
 attr checkboxStyle
 attr checkedTextViewStyle
-attr circleRadius
 attr closeIcon
 attr closeItemLayout
 attr collapseContentDescription
@@ -117,6 +113,8 @@ attr contentInsetStartWithNavigation
 attr controlBackground
 attr coordinatorLayoutStyle
 attr customNavigationLayout
+attr customPivotX
+attr customPivotY
 attr defaultQueryHint
 attr dialogPreferredPadding
 attr dialogTheme
@@ -134,7 +132,6 @@ attr editTextColor
 attr editTextStyle
 attr elevation
 attr expandActivityOverflowButtonDrawable
-attr fillRadius
 attr font
 attr fontFamily
 attr fontProviderAuthority
@@ -182,6 +179,16 @@ attr listPreferredItemPaddingLeft
 attr listPreferredItemPaddingRight
 attr logo
 attr logoDescription
+attr matProg_barColor
+attr matProg_barSpinCycleTime
+attr matProg_barWidth
+attr matProg_circleRadius
+attr matProg_fillRadius
+attr matProg_linearProgress
+attr matProg_progressIndeterminate
+attr matProg_rimColor
+attr matProg_rimWidth
+attr matProg_spinSpeed
 attr maxButtonHeight
 attr measureWithLargestChild
 attr multiChoiceItemLayout
@@ -197,23 +204,18 @@ attr paddingTopNoTitle
 attr panelBackground
 attr panelMenuListTheme
 attr panelMenuListWidth
-attr pivotX
-attr pivotY
 attr popupMenuStyle
 attr popupTheme
 attr popupWindowStyle
 attr preserveIconSpacing
 attr progressBarPadding
 attr progressBarStyle
-attr progressIndeterminate
 attr queryBackground
 attr queryHint
 attr radioButtonStyle
 attr ratingBarStyle
 attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
-attr rimColor
-attr rimWidth
 attr rollType
 attr searchHintIcon
 attr searchIcon
@@ -227,7 +229,6 @@ attr showText
 attr showTitle
 attr singleChoiceItemLayout
 attr spinBars
-attr spinSpeed
 attr spinnerDropDownItemStyle
 attr spinnerStyle
 attr splitTrack
@@ -639,7 +640,6 @@ drawable error_circle
 drawable gengxin
 drawable gray_button_background
 drawable green_button_background
-drawable ic_launcher
 drawable icon
 drawable jietai
 drawable kongwei
@@ -714,6 +714,7 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id buttons_container
 id cancel_button
 id center
 id center_horizontal
@@ -957,6 +958,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string default_progressbar
 string dialog_cancel
 string dialog_default_title
 string dialog_ok
@@ -1335,9 +1337,9 @@ styleable MenuItem android_icon android_enabled android_id android_checked andro
 styleable MenuView android_windowAnimationStyle android_itemTextAppearance android_horizontalDivider android_verticalDivider android_headerBackground android_itemBackground android_itemIconDisabledAlpha preserveIconSpacing subMenuArrow
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
-styleable ProgressWheel barColor barSpinCycleTime barWidth circleRadius fillRadius progressIndeterminate rimColor rimWidth spinSpeed
+styleable ProgressWheel matProg_barColor matProg_barSpinCycleTime matProg_barWidth matProg_circleRadius matProg_fillRadius matProg_linearProgress matProg_progressIndeterminate matProg_rimColor matProg_rimWidth matProg_spinSpeed
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
-styleable Rotate3dAnimation fromDeg pivotX pivotY rollType toDeg
+styleable Rotate3dAnimation customPivotX customPivotY fromDeg rollType toDeg
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Oct 20 21:42:59 CST 2019
+#Sat Oct 26 15:30:41 CST 2019
 0.baseType=DIRECTORY
 0.base=D\:\\androidcode\\WirelessOrder_Client\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.path=classes.dex

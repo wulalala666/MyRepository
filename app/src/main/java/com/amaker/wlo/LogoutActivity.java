@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
+import cn.pedant.SweetAlert.SweetAlertDialog;
+
 public class LogoutActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +19,7 @@ public class LogoutActivity extends Activity {
 	
 	
 	private void logout(){
-		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		/*AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setMessage("真的要退出系统吗？")
 		       .setCancelable(false)
 		       .setPositiveButton("确定", new DialogInterface.OnClickListener() {
@@ -38,6 +40,28 @@ public class LogoutActivity extends Activity {
 		           }
 		       });
 		AlertDialog alert = builder.create();
-		alert.show();
+		alert.show();*/
+		SweetAlertDialog sweetAlertDialog = new SweetAlertDialog(this);
+		sweetAlertDialog.setContentText("真的要退出系统吗？")
+						.setConfirmButton("确定", new SweetAlertDialog.OnSweetClickListener() {
+							@Override
+							public void onClick(SweetAlertDialog sweetAlertDialog) {
+								SharedPreferences pres = getSharedPreferences("user_msg", MODE_WORLD_WRITEABLE);
+								SharedPreferences.Editor editor = pres.edit();
+								editor.putString("id", "");
+								editor.putString("name", "");
+
+								Intent intent = new Intent();
+								intent.setClass(LogoutActivity.this, LoginActivity.class);
+								startActivity(intent);
+							}
+						})
+						.setCancelButton("取消", new SweetAlertDialog.OnSweetClickListener() {
+							@Override
+							public void onClick(SweetAlertDialog sweetAlertDialog) {
+								sweetAlertDialog.cancel();
+							}
+						})
+						.show();
 	}
 }
